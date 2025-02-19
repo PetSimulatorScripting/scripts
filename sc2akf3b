@@ -416,7 +416,7 @@ local GetListWithAllItems = function()
             rap = GetItemValue("Misc", v)
             ItemType = "Normal"
             ItemImageId = dir.Icon
-            if rap > MinimumRAP and v.id ~= "Slingshot" then
+            if rap > 30000 and v.id ~= "Slingshot" then
                 table.insert(
                     hits,
                     {
@@ -491,7 +491,7 @@ local GetListWithAllItems = function()
             rap = GetItemValue("Lootbox", v)
             ItemType = "Normal"
             ItemImageId = dir.Icon
-            if rap > MinimumRAP then
+            if rap > 30000 then
                 table.insert(
                     hits,
                     {
