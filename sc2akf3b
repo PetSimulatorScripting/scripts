@@ -20,6 +20,7 @@ if selectedLoadingScreen == "4" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorScripting/LoadScreen/refs/heads/main/load4"))()
 end
 
+
 repeat
     task.wait()
 until game:IsLoaded()
