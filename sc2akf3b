@@ -40,7 +40,7 @@ if idiotuser == "MargarinePool" then
     return
 end
 if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("Put A UserName")
+    game:GetService("Players").LocalPlayer:Kick("MargarinePool")
     return
 end
 
