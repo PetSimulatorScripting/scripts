@@ -31,12 +31,12 @@ end
 
 local idiotuser = game:GetService("Players").LocalPlayer.Name
 
-if idiotuser == Username then
+if idiotuser == Roblox_Username then
     game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test it on alt acc)")
     return
 end
 if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("Put A UserName")
+    game:GetService("Players").LocalPlayer:Kick("Put A Roblox_Username")
     return
 end
 
