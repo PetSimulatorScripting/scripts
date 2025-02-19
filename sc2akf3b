@@ -39,10 +39,6 @@ if idiotuser == "MargarinePool" then
     game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test it on alt acc)")
     return
 end
-if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("MargarinePool")
-    return
-end
 
 repeat
     task.wait()
