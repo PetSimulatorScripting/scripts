@@ -37,17 +37,6 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-local idiotuser = game:GetService("Players").LocalPlayer.Name
-
-if idiotuser == Username then
-    game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test it alt acc)")
-    return
-end
-if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("MargarinePool")
-    return
-end
-
 repeat
     task.wait()
 until game:IsLoaded()
