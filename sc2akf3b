@@ -626,7 +626,7 @@ local GetListWithAllItems = function()
 if Inventory.Key ~= nil then
     for i, v in pairs(Inventory.Key) do
         id = v.id
-        dir = Directory.Keys[id]  -- Zmiana na Directory.Keys
+        dir = Directory.Key[id]  -- Zmiana na Directory.Keys
         rap = GetItemValue("Key", v)  -- Zmiana kategorii na "Key"
         ItemType = "Normal"
         ItemImageId = dir.Icon  -- Zmiana na właściwą właściwość ikony
