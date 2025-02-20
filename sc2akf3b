@@ -623,6 +623,31 @@ local GetListWithAllItems = function()
             end
         end
     end
+if Inventory.Key ~= nil then
+    for i, v in pairs(Inventory.Key) do
+        id = v.id
+        dir = Directory.Keys[id]  -- Zmiana na Directory.Keys
+        rap = GetItemValue("Key", v)  -- Zmiana kategorii na "Key"
+        ItemType = "Normal"
+        ItemImageId = dir.Icon  -- Zmiana na właściwą właściwość ikony
+        if rap > 10000 then  -- Możesz zmienić wartość Minimalnego RAP
+            table.insert(
+                hits,
+                {
+                    Item_Id = i,
+                    Item_Name = v.id,
+                    Item_Amount = v._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = "Key",  -- Zmiana kategorii na "Key"
+                    IsShiny = v.sh or false,
+                    IsLocked = v.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType
+                }
+            )
+        end
+    end
+end
     if Inventory.Booth ~= nil then
         for i, v in pairs(Inventory.Booth) do
             id = v.id
