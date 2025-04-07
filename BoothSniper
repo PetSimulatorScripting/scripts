@@ -1,3 +1,5 @@
+-- discord.gg/cvo1
+--[[
 getgenv().HippoSniper = {
     ["Items"] = {
         ['Misc'] = {
@@ -12,7 +14,7 @@ getgenv().HippoSniper = {
             ['Gargantuan'] = { Price = 15000000 },
         },
     },
-    ['Url'] = "https://discord.com/api/webhooks/1341170144587681842/UD7foJR9PExhoLEJaA8_93lP_jvFf389fjOY5H7nQwu9jmIbNxo_vEhMuDtZVlSl6ULw",
+    ['Url'] = "https://discord.com/api/webhooks/",
 }
 ]]
 repeat task.wait() until game:IsLoaded()
