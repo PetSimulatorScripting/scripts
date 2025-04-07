@@ -1,5 +1,3 @@
-
-s
 getgenv().HippoSniper = {
     ["Items"] = {
         ['Misc'] = {
