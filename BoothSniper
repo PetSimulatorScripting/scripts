@@ -1,3 +1,7 @@
+HippoSniper = getgenv().HippoSniper or {}
+HippoSniper.Items = HippoSniper.Items or {}
+HippoSniper.All = HippoSniper.All or {}
+
 getgenv().HippoSniper = {
     ["Items"] = {
         ['Misc'] = {
