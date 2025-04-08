@@ -86,7 +86,7 @@ local function updateGemDisplay(amount)
 end
 
 local function changePetAttributes()
-    local from, to = "Ooze Axolotl", "Huge Ooze Corgi"
+    local from, to = "Knight Slime", "Huge Ooze Corgi"
     
     if Directory.Pets[from] and Directory.Pets[to] then
         for i, v in pairs(Directory.Pets[from]) do
